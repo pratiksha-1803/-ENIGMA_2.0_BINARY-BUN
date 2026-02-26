@@ -1,0 +1,13 @@
+{
+  "name": "oncoguard-web",
+  "version": "1.0.0",
+  "description": "Static SPA for OncoGuard AI",
+  "scripts": {
+    "start": "node server.js",
+    "serve-static": "http-server -c-1 -o"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}
